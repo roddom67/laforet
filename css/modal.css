@@ -1,0 +1,164 @@
+.modal .modal-dialog .modal-content .header {
+  position: absolute;
+}
+.modal .modal-dialog .modal-content .close {
+  top: 0;
+  right: 12px;
+  position: relative;
+}
+
+.modal .modal-dialog .modal-content h1 {
+  color: #9abd0f;
+}
+
+.modal .modal-dialog .modal-content p {
+  color: #666;
+}
+
+/*** SUSCRIPCION ***/
+
+.modal.suscripcion .modal-dialog {
+  max-width: 640px;
+}
+
+.modal.suscripcion .modal-dialog .modal-content img {
+  width: 250px;
+}
+.modal.suscripcion .modal-content {
+  border-radius: 2rem;
+}
+
+.modal.suscripcion .modal-dialog .modal-content .close {
+  font-size: 5rem;
+  color: #ababab;
+  right: 60px;
+}
+
+.modal.suscripcion .modal-dialog .modal-content h1 {
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.modal.suscripcion .modal-dialog .modal-content p {
+  font-weight: 900;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  text-transform: uppercase;
+}
+
+.modal.suscripcion .modal-dialog .modal-content .btn {
+  font-weight: 900;
+  color: #666;
+}
+
+.modal.suscripcion .modal-dialog .modal-content .btn-primary {
+  color: white;
+  border-radius: 2rem;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 600px) {
+  .modal.suscripcion .modal-dialog {
+    max-width: 100%;
+  }
+
+  .modal.suscripcion .modal-dialog .modal-content .close {
+    line-height: 2rem;
+    right: 40px;
+  }
+
+  .modal.suscripcion .modal-dialog .modal-content img {
+    width: 100%;
+  }
+
+  .modal.suscripcion .modal-dialog .modal-content h1 {
+    font-size: 2.4rem;
+  }
+
+  .modal.suscripcion .modal-dialog .modal-content p {
+    font-size: 1rem;
+    line-height: 1.1rem;
+  }
+}
+
+/*** PROMOCION ***/
+
+.modal.promociones .modal-dialog {
+  max-width: 720px;
+}
+
+.modal.promociones .modal-dialog .modal-content img {
+  border-radius: 2rem 2rem 0 0;
+}
+
+.modal.promociones .modal-content {
+  border-radius: 2rem;
+}
+
+.modal.promociones .modal-dialog .modal-content .close {
+  font-size: 5rem;
+  color: #ababab;
+  right: 60px;
+}
+
+.modal.promociones .modal-dialog .modal-content h1 {
+  font-weight: 900;
+  font-size: 2.5rem;
+  background-color: #9abd0f;
+  color: #fff;
+  padding: 15px 15%;
+  margin-bottom: 20px;
+}
+
+.modal.promociones .modal-dialog .modal-content p {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  text-transform: uppercase;
+}
+.modal.promociones .modal-dialog .modal-content p span {
+  font-weight: 900;
+  color: #9abd0f;
+}
+.modal.promociones .modal-dialog .modal-content p strong {
+  font-weight: 900;
+}
+
+.modal.promociones .modal-dialog .modal-content .btn {
+  font-weight: 900;
+  color: #666;
+}
+
+.modal.promociones .modal-dialog .modal-content .btn-primary {
+  font-size: 1.4rem;
+}
+
+.modal.promociones .modal-dialog .modal-content .btn-primary {
+  color: white;
+  border-radius: 2rem;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 600px) {
+  .modal.promociones .modal-dialog {
+    max-width: 100%;
+  }
+
+  .modal.promociones .modal-dialog .modal-content .close {
+    line-height: 3rem;
+    right: 30px;
+  }
+
+  .modal.promociones .modal-dialog .modal-content img {
+    width: 100%;
+  }
+
+  .modal.promociones .modal-dialog .modal-content h1 {
+    font-size: 2rem;
+  }
+
+  .modal.promociones .modal-dialog .modal-content p {
+    font-size: 1rem;
+    line-height: 1.1rem;
+  }
+}

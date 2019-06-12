@@ -1,0 +1,289 @@
+@media only screen and (max-width: 600px) {
+  header .header-top {
+    font-size: 15px !important;
+  }
+  header .header-middle img {
+    width: 75px;
+  }
+
+  section header h1 {
+    font-size: 1.6rem;
+    color: #595a5d;
+  }
+
+  .carousel-caption {
+    top: 0;
+  }
+  .carousel-caption h2 {
+    font-size: 24px;
+  }
+  .carousel-caption p {
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+  .carousel-caption a {
+    font-size: 12px;
+  }
+
+  section.reservas h2 {
+    font-size: 1.8rem;
+  }
+
+  section.reservas h2 img {
+    height: 34px;
+  }
+
+  section.reservas h3 {
+    font-size: 1.2rem;
+  }
+
+  section.reservas .text-contact-info {
+    font-size: 1.3rem;
+  }
+
+  section.reservas .reserva .btn-outline-light {
+    font-size: 1.7rem;
+    padding: 15px;
+  }
+
+  section.hotel header h1 {
+    font-size: 1.4rem;
+  }
+
+  section.hotel .bar {
+    width: 180px;
+  }
+
+  .habitaciones .main .blocks .room > h2 {
+    position: absolute;
+    bottom: 25%;
+    left: 10%;
+  }
+
+  .habitaciones .main .blocks .room > a {
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+  }
+
+  .habitaciones .main .blocks .room .over {
+    display: none;
+    opacity: 0;
+  }
+
+  .habitaciones section.main > .container > .row > :nth-child(1) {
+    order: 1;
+  }
+  .habitaciones section.main .container > .row > :nth-child(2) {
+    order: 5;
+  }
+  .habitaciones section.main .container > .row > :nth-child(3) {
+    order: 2;
+    margin: 0;
+  }
+  .habitaciones section.main .container > .row > :nth-child(4) {
+    order: 3;
+  }
+  .habitaciones section.main .container > .row > :nth-child(5) {
+    order: 4;
+  }
+  .habitaciones section.main .container > .row > :nth-child(6) {
+    order: 6;
+  }
+  .habitaciones section.main .container > .row > :nth-child(7) {
+    order: 7;
+  }
+
+  .habitaciones section.main .title {
+    border-top: 1px solid #898989;
+    margin-bottom: 20px;
+  }
+
+  .contacto .main .title .orangebox {
+    width: 5px;
+  }
+
+  .contacto .main .title > div {
+    height: 100px;
+  }
+
+  .galeria-container {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .slick-prev, .slick-next{
+  	z-index: 10;
+  	top: inherit;
+    bottom: 20px;
+  }
+  .slick-next {
+    right: 10px;
+  }
+  .slick-prev {
+    left: 10px;
+  }
+
+  /*.galeria-container .slick-list {
+    margin-left: 20px;
+  }*/
+  .slick-slide{
+  		margin: 0 !important;
+  }
+  .blog-container > .row{
+  	flex-direction:column-reverse;
+  }
+  .blog-container article{
+  	padding-bottom: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 990px) {
+  .navbar-nav .nav-link,
+  .navbar-nav .nav-item.dropdown .dropdown-item {
+    font-size: 0.8rem;
+  }
+
+  .carousel-caption h2 {
+    font-size: 32px;
+  }
+  .carousel-caption p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .carousel-caption a {
+    font-size: 14px;
+  }
+
+  section.reservas h2 {
+    font-size: 1.8rem;
+  }
+
+  section.reservas h2 img {
+    height: 34px;
+  }
+
+  section.reservas h3 {
+    font-size: 1.2rem;
+  }
+
+  section.reservas .text-contact-info {
+    font-size: 1.3rem;
+  }
+
+  section.reservas .reserva .btn-outline-light {
+    font-size: 1.7rem;
+    padding: 15px;
+  }
+
+  .habitaciones section.main > .container > .row:nth-child(1) {
+    order: 1;
+  }
+  .habitaciones section.main .container > .row:nth-child(2) {
+    order: 3;
+  }
+  .habitaciones section.main .container > .row:nth-child(3) {
+    order: 4;
+  }
+  .habitaciones section.main .container > .row:nth-child(4) {
+    order: 2;
+  }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1440px) {
+  .navbar-nav .nav-link,
+  .navbar-nav .nav-item.dropdown .dropdown-item {
+    font-size: 0.8rem;
+  }
+
+  section.carousel,
+  section.carousel .carousel-inner {
+    /*height: 40vh;*/
+  }
+
+  section.carousel .carousel-caption {
+    top: 10%;
+  }
+
+  section.carousel .carousel-caption h2 {
+    font-size: 36px;
+  }
+  section.carousel .carousel-caption p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  section.carousel .carousel-caption a {
+    font-size: 16px;
+  }
+
+  section.reservas h2 {
+    font-size: 1.5rem;
+  }
+
+  section.reservas h2 img {
+    height: 32px;
+  }
+
+  section.reservas h3 {
+    font-size: 0.9rem;
+  }
+
+  section.reservas .text-contact-info {
+    font-size: 1rem;
+  }
+
+  section.reservas .text-contact-info img {
+    height: 32px;
+  }
+
+  section.reservas .reserva .btn-outline-light {
+    font-size: 1.2rem;
+    padding: 15px;
+  }
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1280px) {
+  .navbar-nav .nav-link,
+  .navbar-nav .nav-item.dropdown .dropdown-item {
+    font-size: 0.8rem;
+  }
+
+  section.carousel,
+  section.carousel .carousel-inner {
+    /*height: 45vh;*/
+  }
+
+  section.reservas h2 {
+    font-size: 1.5rem;
+  }
+
+  section.reservas h2 img {
+    height: 32px;
+  }
+
+  section.reservas h3 {
+    font-size: 0.8rem;
+  }
+
+  section.reservas .text-contact-info {
+    font-size: 0.9rem;
+  }
+
+  section.reservas .text-contact-info img {
+    height: 32px;
+  }
+
+  section.reservas .reserva .btn-outline-light {
+    font-size: 1.2rem;
+    padding: 15px;
+  }
+}
+
+@media only screen and (min-width: 1281px) {
+  section.carousel,
+  section.carousel .carousel-inner {
+    /*height: 50vh;*/
+  }
+}

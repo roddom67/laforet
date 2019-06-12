@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+        <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/modal.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <title>Ville la plage</title>
+  </head>
+
+  <body class="contacto">
+    <!-- HEADER -->
+    <header>
+      <div class="header-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-3 col-md-4">
+              <div class="p-1 p-md-2 d-flex align-items-center">
+                <ion-icon name="sunny"></ion-icon> 32 °C
+                <span class="d-none d-sm-block ml-1">- algo de nubes</span>
+              </div>
+            </div>
+            <div class="col-9 col-md-8 d-flex justify-content-end">
+              <div class="dropdown">
+                <button
+                  class="btn dropdown-toggle"
+                  type="button"
+                  id="dropdownLangButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  ES <ion-icon name="globe"></ion-icon>
+                </button>
+                <div
+                  class="dropdown-menu dropdown-menu-right"
+                  aria-labelledby="dropdownLangButton"
+                >
+                  <a class="dropdown-item" href="#">English</a>
+                  <a class="dropdown-item" href="#">Español</a>
+                  <a class="dropdown-item" href="#">Português</a>
+                </div>
+              </div>
+              <nav class="nav nav-social">
+                <a class="nav-link" href="#"
+                  ><i class="fab fa-facebook-square"></i
+                ></a>
+                <a class="nav-link" href="#"
+                  ><i class="fab fa-tripadvisor"></i
+                ></a>
+                <a class="nav-link" href="#"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-middle">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-6 col-md-3 col-lg-4 d-flex justify-content-between justify-content-md-start">
+              <a class="navbar-brand" href="index.html">
+                <img src="img/logo-la-foret.svg" alt="La Foret" height="78" />
+                <img src="img/logo-la-foret.png" alt="La Foret"  />
+              </a>
+            </div>
+            <div class="col-md-9 col-lg-8 d-flex align-items-center">
+              <nav class="navbar navbar-expand-md navbar-light w-100">
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav w-100 justify-content-between">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Ville La Plage
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="elhotel.html">El Hotel</a>
+                        <a class="dropdown-item" href="habitaciones.html">Habitaciones</a>
+                        <a class="dropdown-item" href="galeria.html">Galeria</a>
+                        <a class="dropdown-item" href="ubicacion.html">Ubicación</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="beachclub.html">Beach club</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="promociones.html">Promociones</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item nav-item-reserva">
+                      <a class="nav-link nav-link-reserva" href="#"><i class="far fa-calendar-alt"></i> Reservas
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+          <div class="header-mobile d-block d-sm-none p-1">
+            <div class="row justify-content-center">
+              <div class="w-50 d-flex justify-content-between">
+                <a class="btn btn-primary" href="#" type="button" data-toggle="collapse" data-target="#navbarToggleMobileMenu"
+                  aria-controls="navbarToggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i></a>
+                <a class="btn btn-primary" href="#"><i class="far fa-calendar-alt"></i></a>
+                <a class="btn btn-primary" href="#"><i class="fas fa-phone"></i></a>
+              </div>
+            </div>
+            <nav class="collapse" id="navbarToggleMobileMenu">
+              <ul class="navbar-nav p-2 mt-2 border-top">
+                <span>Ville Le Foret</span>
+                <ul class="navbar-nav">
+                  <li class="nav-item pl-4">
+                    <a class="nav-link" href="elhotel.html">El Hotel</a>
+                  </li>
+                  <li class="nav-item pl-4">
+                    <a class="nav-link" href="habitaciones.html">Habitaciones</a>
+                  </li>
+                  <li class="nav-item pl-4">
+                    <a class="nav-link" href="galeria.html">Galeria</a>
+                  </li>
+                  <li class="nav-item pl-4">
+                    <a class="nav-link" href="ubicacion.html">Ubicación</a>
+                  </li>
+                </ul>
+                <li class="nav-item">
+                  <a class="nav-link" href="beachclub.html">Beach club</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="promociones.html">Promociones</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- END HEADER -->
+    <section class="main">
+      <header class="container">
+        <div class="col-12 col-md-3 title">
+          <div class="d-flex flex-column flex-sm-row justify-content-center justify-content-sm-start align-items-center align-items-sm-end">
+            <div class="orangebox"></div>
+            <div class="d-flex justify-content-center align-items-end mt-1 mt-md-0">
+              <h2>CONTACTO</h2>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-8">
+            <form class="m-4">
+              <div class="form-group">
+                <label for="nombreapellido">Nombre</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nombreapellido"
+                  aria-describedby="nyaHelp"
+                  placeholder=""
+                />
+              </div>
+              <div class="form-group">
+                <label for="nombreapellido">Apellido</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nombreapellido"
+                  aria-describedby="nyaHelp"
+                  placeholder=""
+                />
+              </div>
+              <div class="form-group">
+                <label for="telefono">Teléfono</label>
+                <input
+                  type="phone"
+                  class="form-control"
+                  id="telefono"
+                  aria-describedby="nyaHelp"
+                  placeholder=""
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  aria-describedby="emailHelp"
+                  placeholder=""
+                />
+              </div>
+              <div class="row">
+                <div class="form-group col-6">
+                  <label for="entrada">Entrada</label>
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="entrada"
+                      placeholder=""
+                      aria-describedby="inputGroupPrependfrom"
+                    />
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="inputGroupPrependfrom"
+                        ><i class="far fa-calendar-alt"></i
+                      ></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group col-6">
+                  <label for="salida">Salida</label>
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="salida"
+                      placeholder=""
+                      aria-describedby="inputGroupPrependto"
+                    />
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="inputGroupPrependto"
+                        ><i class="far fa-calendar-alt"></i
+                      ></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="defaultCheck1"
+                />
+                <label class="form-check-label" for="defaultCheck1">
+                  No decidí días
+                </label>
+              </div>
+              <div class="row">
+                <div class="form-group col-6">
+                  <label for="personas">Personas</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="personas"
+                    aria-describedby="emailHelp"
+                    placeholder="1"
+                    value="1"
+                    min="1"
+                  />
+                </div>
+                <div class="form-group col-6">
+                  <label for="menores">Menores (entre 1 y 5 años)</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="menores"
+                    aria-describedby="menoresHelp"
+                    placeholder="0"
+                    value="0"
+                    min="0"
+                  />
+                  <div class="menores-box p-1"></div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea class="form-control" id="mensaje" rows="5"></textarea>
+              </div>
+              <div class="d-flex justify-content-center align-items-center">
+                <button type="submit" class="btn btn-primary w-50">
+                  ENVIAR
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="row">
+              <div class="col-12 reservas">
+                <div class="row">
+                  <div class="col-12 p-2">
+                    <h2 class="text-center">
+                      <img src="img/iconos-13.png" /> CENTRAL DE RESERVAS
+                    </h2>
+                  </div>
+                  <div class="col-12">
+                    <div
+                      class="row p-3 d-flex justify-content-center align-items-center"
+                    >
+                      <div class="col-12 col-md-10 bg-gray">
+                        <h3 class="p-2 ">Argentina y resto del mundo</h3>
+                      </div>
+                    </div>
+                    <div
+                      class="text-contact-info p-1 mb-2 d-flex justify-content-center align-items-center"
+                    >
+                      <div class="col-12 col-md-9">
+                        <div class="row">
+                          <div class="col-3 col-md-3">
+                            <img src="img/iconos-14.png" />
+                          </div>
+                          <div clas="col-9 col-md-8">
+                            <strong
+                              ><a href="tel:54115199-8178" alt="+5411 5199-8178"
+                                >+5411 5199-8178</a
+                              ></strong
+                            >
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-3 col-md-3">
+                            <img src="img/iconos-03.png" />
+                          </div>
+                          <div clas="col-9 col-md-9">
+                            <a
+                              href="https://api.whatsapp.com/send?phone=5491166392638&text=Hola+quiero+consultar+por+"
+                              alt="whatsapp"
+                              >+54 911 6639-2638</a
+                            >
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-3 col-md-3">
+                            <img src="img/iconos-16.png" />
+                          </div>
+                          <div clas="col-9 col-md-9">
+                            <a href="mailto:callcenter@lp-lf.com" alt="mail"
+                              >callcenter@lp-lf.com</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div
+                      class="row p-3 d-flex justify-content-center align-items-center"
+                    >
+                      <div class="col-12 col-md-10 bg-gray">
+                        <h3 class="p-2 bg-gray">BRasil</h3>
+                      </div>
+                    </div>
+                    <div
+                      class="text-contact-info p-1 d-flex justify-content-center align-items-center"
+                    >
+                      <div class="col-12 col-md-8">
+                        <div class="row">
+                          <div class="col-3 col-md-3">
+                            <img src="img/iconos-14.png" />
+                          </div>
+                          <div clas="col-9 col-md-9">
+                            <a href="tel:+552226239901" alt="+55 22 2623-9901"
+                              >+55 22 2623-9901</a
+                            >
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-3 col-md-3">
+                            <img src="img/iconos-03.png" />
+                          </div>
+                          <div clas="col-9 col-md-9">
+                            <a
+                              href="https://api.whatsapp.com/send?phone=+5422xxxxxxxx&text=Olá+eu+quero+consultar+por+"
+                              alt="whatsapp"
+                              >+54 22 xxxx-xxxx</a
+                            >
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-3 col-md-3">
+                            <img src="img/iconos-16.png" />
+                          </div>
+                          <div clas="col-9 col-md-9">
+                            <a href="mailto:reservasvlp@lp-lf.com" alt="mail">reservasvlp@lp-lf.com</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4 col-md-4 border-right">
+                <img src="img/logo-ville-la-plage.png" class="img-fluid" />
+              </div>
+              <div class="col-8 col-md-8 direccion">
+                <h3><img src="img/icono-direccion.png" /> DIRECCIÓN</h3>
+                <p>Rua Onze, R. João Fernandes, 8</p>
+                <p>Quadra G Lote, Búzios</p>
+                <p>RJ, 28950-000, Brasil</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="maps">
+      <div
+        id="map"
+        class="map"
+        data-type="2"
+        data-lat-plf=""
+        data-lng-plf=""
+        data-lat-vlp="-22.7426337000000000"
+        data-lng-vlp="-41.8749001999999560"
+      ></div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+      <!-- MENU SOLO PARA MOBILE -->
+      <div class="d-flex d-md-none justify-content-center align-items-center p-1">
+        <nav class="nav nav-social-mobile">
+          <a class="btn" href="#"><img src="img/iconos-06.png" alt="instagram" /></a>
+          <a class="btn" href="#"><img src="img/iconos-07.png" alt="facebook" /></a>
+          <a class="btn" href="#"><img src="img/iconos-08.png" alt="tripavisor" /></a>
+        </nav>
+      </div>
+      <!-- END MENU -->
+      <div class="social bg-primary">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div class="row">
+                <div class="col-2 col-md-2">
+                  <div class="icono-mail d-flex justify-content-center align-items-center">
+                    <i class="far fa-envelope"></i>
+                  </div>
+                </div>
+                <div class="col-10">
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Ingrese su email" aria-label="Ingrese su email" aria-describedby="button-addon2" />
+                    <div class="input-group-append">
+                      <div class="separador d-flex align-items-center">
+                        <div class="linea"></div>
+                      </div>
+                      <button class="btn btn-outline-secondary" type="button" id="button-addon2">
+                        <i class="fas fa-sign-in-alt"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 d-none d-sm-none d-md-flex justify-content-end">
+              <nav class="nav nav-social">
+                <a class="btn" href="#"><img src="img/iconos-10.png" alt="instagram"/></a>
+                <a class="btn" href="#"><img src="img/iconos-11.png" alt="facebook" /></a>
+                <a class="btn" href="#"><img src="img/iconos-12.png" alt="tripavisor" /></a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class=" menues">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-3 d-none d-sm-block">
+              <a class="navbar-brand" href="index.html">
+                <img src="img/logo-la-foret.png" alt="La Foret" />
+              </a>
+            </div>
+            <div class="col-6 col-md-3">
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">link 1</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">link 2</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">link 3</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-3">
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">link 1</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">link 2</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">link 3</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-3  d-none d-sm-block">
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">link 1</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">link 2</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">link 3</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-12">
+              <hr />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-12">
+              <p class="p-2">Copy</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- END FOOTER -->
+        <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
+    	     <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+    <script src="js/sly.min.js"></script>
+    <script src="js/maps.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
