@@ -231,7 +231,7 @@
                 </div>
               </div>
               <div class="col-4 col-md-4 border-right">
-                <img src="img/logo-ville-la-plage.png" class="img-fluid" />
+                <img src="img/logo-la-foret.svg" class="img-fluid" width="78" />
               </div>
               <div class="col-8 col-md-8 direccion">
                 <h3><img src="img/icono-direccion.png" /> DIRECCIÓN</h3>

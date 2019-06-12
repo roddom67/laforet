@@ -1,3 +1,6 @@
+    <?php
+      if( !isset($eses)) {
+    ?>
     <!-- FOOTER -->
     <footer>
       <!-- MENU SOLO PARA MOBILE -->
@@ -49,7 +52,7 @@
           <div class="row">
             <div class="col-12 col-md-3 d-none d-sm-block">
               <a class="navbar-brand" href="index.html">
-                <img src="img/logo-la-foret.png" alt="La Foret" />
+                <img src="img/logo-la-foret-la-playa-beach-club.png" alt="La Foret" />
               </a>
             </div>
             <div class="col-6 col-md-3">
@@ -144,6 +147,9 @@
     <?php
     	}
     ?>
+    <?php
+    }
+    ?>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -161,14 +167,14 @@
     	}
     ?>
 	 <?php if(isset($galeriaActive)){ ?>
-	    <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
-    <script src="js/lightgallery.min.js"></script>
-	<script src="js/lg-pager.min.js"></script>
-	<script src="js/lg-autoplay.min.js"></script>
-	<script src="js/lg-fullscreen.min.js"></script>
-	<script src="js/lg-zoom.min.js"></script>
-	<script src="js/lg-hash.min.js"></script>
-	<script src="js/lg-share.min.js"></script>
+	   <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+		<script src="js/lightgallery.min.js"></script>
+		<script src="js/lg-pager.min.js"></script>
+		<script src="js/lg-autoplay.min.js"></script>
+		<script src="js/lg-fullscreen.min.js"></script>
+		<script src="js/lg-zoom.min.js"></script>
+		<script src="js/lg-hash.min.js"></script>
+		<script src="js/lg-share.min.js"></script>
 	 <?php } ?>
     <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
     <script src="js/sly.min.js"></script>

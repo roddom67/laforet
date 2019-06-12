@@ -36,9 +36,15 @@
     <?php
     }
     ?>
+    <?php if(isset($galeriaActive)){ ?>
+    <link rel="stylesheet" href="css/lightgallery.css">
+    <?php } ?>
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/modal.css" />
     <link rel="stylesheet" href="css/responsive.css" />
+    <?php if(isset($eses)){ ?>
+    <link rel="stylesheet" href="css/inicio.css">
+    <?php } ?>
 
     <title>Ville la plage</title>
   </head>
@@ -46,6 +52,9 @@
   <body <?php if(isset($class)){ echo 'class="'.$class.'"'; } ?>>
     <!-- HEADER -->
     <header>
+    <?php
+      if( !isset($eses)) {
+    ?>
       <div class="header-top">
         <div class="container">
           <div class="row">
@@ -91,13 +100,16 @@
           </div>
         </div>
       </div>
+    <?php } ?>
       <div class="header-middle">
         <div class="container">
-          <div class="row justify-content-center">
+         <?php
+      		if( !isset($eses)) {
+    		?>
+         <div class="row justify-content-center">
             <div class="col-6 col-md-3 col-lg-4 d-flex justify-content-between justify-content-md-start">
               <a class="navbar-brand" href="index.html">
-                <img src="img/logo-la-foret.svg" alt="La Foret" height="78" />
-                <img src="img/logo-la-foret.png" alt="La Foret"  />
+                <img src="img/logo-la-foret-la-playa-beach-club.svg" alt="La Foret" height="78" />
               </a>
             </div>
             <div class="col-md-9 col-lg-8 d-flex align-items-center">
@@ -172,6 +184,17 @@
               </ul>
             </nav>
           </div>
+        	<?php } else {
+        	?>
+        	<div class="row justify-content-center">
+            <div class="col-12 d-flex justify-content-between justify-content-md-center p-5">
+              <a class="navbar-brand" href="index.html">
+              	<img src="img/logo-ville-la-plage-la-foret.png" alt="Ville La Plage | La foret"  />
+              </a>
+            </div>
+         </div>
+        	<?php
+        	}?>
         </div>
       </div>
     </header>
