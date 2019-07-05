@@ -113,8 +113,14 @@ $(document).ready(function() {
   if ($("#lightgallery").length > 0) {
   		lightGallery(document.getElementById('lightgallery'), {
     		mode: 'lg-fade',
-    		cssEasing : 'cubic-bezier(0.25, 0, 0.25, 1)',
-    		share : false
+			cssEasing: 'cubic-bezier(0.25, 0, 0.25, 1)',
+			share: false,
+			controls: true,
+			counter: false,
+			zoom: false,
+			fullScreen: false,
+			autoplayControls: false,
+			download: false
     		
 		});
   }
