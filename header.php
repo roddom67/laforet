@@ -119,7 +119,7 @@
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle <?php if(!isset($class)){ echo ' active';}?>" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
-                        Ville La Plage
+                        La Foret
                       </a>
                       <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item<?php if(isset($elhotelActive)){ echo ' active' ;} ?>" href="elhotel.html">El Hotel</a>
@@ -157,7 +157,7 @@
             </div>
             <nav class="collapse" id="navbarToggleMobileMenu">
               <ul class="navbar-nav p-2 mt-2 border-top">
-                <span>Ville Le Foret</span>
+                <span>La Foret</span>
                 <ul class="navbar-nav">
                   <li class="nav-item pl-4<?php if(isset($elhotelActive)){ echo ' active' ;} ?>">
                     <a class="nav-link" href="elhotel.html">El Hotel</a>
@@ -189,7 +189,7 @@
         	<div class="row justify-content-center">
             <div class="col-12 d-flex justify-content-between justify-content-md-center p-5">
               <a class="navbar-brand" href="index.html">
-              	<img src="img/logo-ville-la-plage-la-foret.png" alt="Ville La Plage | La foret"  />
+              	<img src="img/logo-ville-la-plage-la-foret.png" alt="La foret"  />
               </a>
             </div>
          </div>

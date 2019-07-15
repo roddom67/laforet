@@ -816,7 +816,7 @@ footer .menues .nav-link:hover {
 	display: none;
 }
 .lg-toolbar.group{
-	display:none !important;	
+/*	display:none !important;	*/
 }
 .lg-actions .lg-next, .lg-actions .lg-prev{
 	background: none;
